@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editoriales</title>
+</head>
+<body>
+    <h1>Editoriales</h1>
+    <ul>
+        {% for editorial in editoriales %}
+            <li>{{ editorial.nombre }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
